@@ -46,6 +46,7 @@ const resolvers = {
     },
     durationInSeconds: ({length}) => length,
   },
+  //added new query for duration
   Module: {
     durationInSeconds: ({ length }) => length,
   }
